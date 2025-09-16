@@ -1,0 +1,91 @@
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #ffdee9, #b5fffc);
+      min-height: 100vh;
+      padding-bottom: 50px;
+    }
+
+    .navbar {
+      background: linear-gradient(90deg, #2196f3, #e91e63);
+    }
+    .navbar-brand, .navbar-nav .nav-link {
+      color: #fff !important;
+      font-weight: bold;
+    }
+
+    .display-4 {
+      font-family: 'Fredoka One', cursive;
+      color: #e91e63;
+      text-shadow: 2px 2px #ffcdd2;
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .form-control, .form-control-file {
+      border-radius: 15px;
+      border: 2px solid #90caf9;
+      padding: 10px;
+    }
+
+    .btn-primary {
+      background-color: #2196f3;
+      border: none;
+      border-radius: 20px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .btn-primary:hover {
+      background-color: #1976d2;
+      transform: scale(1.05);
+    }
+
+    .btn-danger {
+      background-color: #e91e63;
+      border: none;
+      border-radius: 20px;
+      font-weight: bold;
+    }
+    .btn-danger:hover {
+      background-color: #c2185b;
+    }
+
+    .card {
+      border-radius: 20px;
+      border: none;
+      background: #fff;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .card h1 {
+      font-size: 1.8rem;
+      color: #2196f3;
+      font-weight: bold;
+    }
+
+    .card-body small {
+      color: #777;
+    }
+
+    .card::before {
+      content: "✏️📚";
+      position: absolute;
+      top: -15px;
+      right: -10px;
+      font-size: 3rem;
+      opacity: 0.15;
+    }
+
+    textarea {
+      resize: none;
+    }
+
+    label::before {
+      content: "📎 ";
+    }
+
+    .updateArticleForm h4 {
+      color: #e91e63;
+      font-weight: bold;
+      margin-top: 15px;
+    }

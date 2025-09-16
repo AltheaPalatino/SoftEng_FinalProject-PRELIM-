@@ -1,0 +1,110 @@
+body {
+    font-family: 'Baloo 2', cursive;
+    background: linear-gradient(135deg, #ffdee9 0%, #b5fffc 100%);
+    min-height: 100vh;
+    background-attachment: fixed;
+
+.navbar {
+  background: linear-gradient(90deg, #2196f3, #e91e63);
+}
+.navbar-brand, .navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: bold;
+}
+
+
+h2 {
+  font-family: 'Fredoka One', cursive;
+  color: #e91e63;
+  text-align: center;
+  margin-top: 20px;  
+  margin-bottom: 30px;
+  text-shadow: 1px 1px #ffcdd2;
+}
+
+
+.alert {
+  border-radius: 15px;
+  padding: 12px 20px;
+  font-weight: bold;
+  max-width: 500px;   
+  margin: 20px auto;  
+  text-align: center; 
+}
+
+form {
+  background: rgba(255, 255, 255, 0.95);
+  padding: 25px;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  max-width: 500px;
+  margin: 0 auto 30px auto;
+}
+
+.form-label {
+  font-weight: 600;
+  color: #2196f3;
+}
+
+.form-control {
+  border-radius: 15px;
+  border: 2px solid #90caf9;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.form-control:focus {
+  border-color: #e91e63;
+  box-shadow: 0 0 8px rgba(233,30,99,0.3);
+}
+
+.btn-primary {
+  background-color: #2196f3;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  width: 100%;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #1976d2;
+  transform: scale(1.05);
+}
+
+
+ul.list-group {
+  max-width: 500px;
+  margin: 0 auto;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+ul.list-group li {
+  padding: 15px 20px;
+  font-weight: 500;
+  border: none;
+  background: #fff;
+  transition: 0.3s;
+}
+
+ul.list-group li:nth-child(odd) {
+  background: #fce4ec;
+}
+
+ul.list-group li:hover {
+  background: #f8bbd0;
+  color: #e91e63;
+  cursor: default;
+}
+
+/* Existing Categories Heading */
+h4 {
+  text-align: center;
+  color: #e91e63; /* pink theme color */
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: 'Fredoka One', cursive;
+  text-shadow: 1px 1px #ffcdd2;
+}

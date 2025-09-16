@@ -1,0 +1,120 @@
+    body {
+      font-family: 'Baloo 2', cursive;
+      background: linear-gradient(135deg, #ffdee9 0%, #b5fffc 100%);
+      min-height: 100vh;
+      background-attachment: fixed;
+    }
+
+    .navbar {
+      background: linear-gradient(90deg, #2196f3, #e91e63);
+    }
+    .navbar-brand, .navbar-nav .nav-link {
+      color: #fff !important;
+      font-weight: bold;
+    }
+
+    .section-title {
+      font-size: 1.8rem;
+      font-weight: bold;
+      margin-top: 40px;
+      margin-bottom: 20px;
+      color: #3a86ff; /* Blue */
+      text-align: center;
+      background: #ffe5ec;
+      border-radius: 15px;
+      padding: 10px;
+      box-shadow: 0px 3px 8px rgba(0,0,0,0.1);
+    }
+
+    .card {
+      border-radius: 20px;
+      border: none;
+      background: #ffffff;
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: scale(1.02);
+    }
+
+    .card h1, .card h2 {
+      color: #ff477e; /* Pink for titles */
+      font-size: 1.4rem;
+    }
+
+    .card small {
+      font-size: 0.85rem;
+      color: #555;
+    }
+
+    .text-danger {
+      color: #e63946 !important; 
+      font-weight: bold;
+    }
+
+    .text-success {
+      color: #3a86ff !important; 
+      font-weight: bold;
+    }
+
+    .btn-danger {
+      background-color: #e63946;
+      border-radius: 25px;
+      border: none;
+      font-weight: bold;
+    }
+
+    .btn-danger:hover {
+      background-color: #d62828;
+    }
+
+    .btn-success {
+      background-color: #3a86ff;
+      border-radius: 25px;
+      border: none;
+      font-weight: bold;
+    }
+
+    .btn-success:hover {
+      background-color: #265d97;
+    }
+
+    .btn-primary {
+      background-color: #ff477e;
+      border-radius: 25px;
+      border: none;
+      font-weight: bold;
+    }
+
+    .btn-primary:hover {
+      background-color: #e63946;
+    }
+
+    .form-control, .form-control-file, select {
+      border-radius: 15px;
+      border: 2px solid #ff477e;
+    }
+
+    .updateArticleForm {
+      background: #ffe5ec;
+      padding: 15px;
+      border-radius: 15px;
+      margin-top: 15px;
+    }
+
+    /* Cute header icon */
+    .header-icon {
+      width: 60px;
+      margin-bottom: 10px;
+    }
+
+    footer {
+      margin-top: 30px;
+      text-align: center;
+      padding: 12px;
+      background: #ffe5ec;
+      border-top: 3px solid #e63946;
+      border-radius: 20px 20px 0 0;
+      color: #2b2d42;
+      font-weight: bold;
+    }

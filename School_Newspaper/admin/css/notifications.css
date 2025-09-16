@@ -1,0 +1,70 @@
+    body {
+      font-family: "Poppins", sans-serif;
+      background: linear-gradient(135deg, #2196f3, #e91e63, #f48fb1);
+      background-size: 400% 400%;
+      animation: gradientBG 10s ease infinite;
+      min-height: 100vh;
+      padding-bottom: 40px;
+    }
+
+    .navbar {
+      background: linear-gradient(90deg, #2196f3, #e91e63);
+    }
+    .navbar-brand, .navbar-nav .nav-link {
+      color: #fff !important;
+      font-weight: bold;
+    }
+
+    @keyframes gradientBG {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
+    }
+
+    .container {
+      background: rgba(255, 255, 255, 0.95);
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+      margin-top: 30px;
+    }
+
+    h3 {
+      font-family: "Fredoka One", cursive;
+      font-size: 1.8rem;
+      color: #2196f3;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    h3::before {
+      content: "🔔 ";
+    }
+
+    .list-group-item {
+      border-radius: 15px !important;
+      margin-bottom: 10px;
+      border: none;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+      transition: transform 0.2s;
+    }
+
+    .list-group-item:hover {
+      transform: scale(1.02);
+    }
+
+    .font-weight-bold {
+      background-color: #e3f2fd;
+      border-left: 6px solid #2196f3;
+    }
+
+    .text-muted {
+      font-size: 0.85rem;
+      color: #e91e63 !important;
+    }
+
+    .empty-msg {
+      text-align: center;
+      color: #999;
+      font-style: italic;
+    }

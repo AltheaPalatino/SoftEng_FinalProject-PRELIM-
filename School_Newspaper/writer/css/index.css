@@ -1,0 +1,99 @@
+    body {
+      font-family: 'Baloo 2', cursive;
+      background: linear-gradient(to right, #ffdee9, #b5fffc);
+      min-height: 100vh;
+      background-attachment: fixed;
+    }
+
+    .navbar {
+      background: linear-gradient(90deg, #2196f3, #e91e63);
+    }
+    .navbar-brand, .navbar-nav .nav-link {
+      color: #fff !important;
+      font-weight: bold;
+    }
+
+    @keyframes gradientBG {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
+    }
+
+   .display-4 {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #2b2d42;
+      background: #fef2f7;
+      padding: 20px;
+      border-radius: 20px;
+      margin-top: 20px;
+      box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+    }
+
+    form {
+      background: rgba(255, 255, 255, 0.95);
+      padding: 25px;
+      border-radius: 20px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+
+    .form-control, .form-control-file {
+      border-radius: 15px;
+      border: 2px solid #f48fb1;
+      padding: 12px;
+      transition: 0.3s;
+    }
+    .form-control:focus {
+      border-color: #2196f3;
+      box-shadow: 0 0 8px rgba(33,150,243,0.3);
+    }
+
+    .btn-primary {
+      background: #2196f3;
+      border: none;
+      border-radius: 20px;
+      font-weight: bold;
+      transition: all 0.3s ease-in-out;
+    }
+    .btn-primary:hover {
+      background: #e91e63;
+      transform: scale(1.05);
+    }
+
+    .card {
+      border-radius: 20px;
+      border: none;
+      background: #fff;
+    }
+
+    .card h1 {
+      font-size: 1.6rem;
+      color: #2196f3;
+      font-weight: bold;
+    }
+
+    .card small {
+      color: #e91e63;
+    }
+
+    .card img {
+      border-radius: 15px;
+      max-height: 300px;
+      object-fit: cover;
+      border: 3px solid #f48fb1;
+    }
+
+    .mascot {
+      font-size: 2.5rem;
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    .header-icon {
+      width: 100px;
+      margin: 10px auto; 
+      margin-bottom: 10px;
+      display: block;    
+    }
+
+    }

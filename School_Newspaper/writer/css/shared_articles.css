@@ -1,0 +1,53 @@
+    body {
+      font-family: "Comic Sans MS", "Arial Rounded MT Bold", Arial, sans-serif;
+      background: linear-gradient(135deg, #87cefa, #ffb6c1);
+      min-height: 100vh;
+    }
+
+    .navbar {
+      background: linear-gradient(90deg, #2196f3, #e91e63);
+    }
+    .navbar-brand, .navbar-nav .nav-link {
+      color: #fff !important;
+      font-weight: bold;
+    }
+
+    h1 {
+      color: #d63384;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .article-card {
+      border-radius: 20px;
+      border-left: 8px solid #007bff;
+      transition: transform 0.2s;
+      background: #fff;
+    }
+    .article-card:hover {
+      transform: scale(1.02);
+    }
+
+    .article-title {
+      color: #003366;
+      font-size: 1.4rem;
+      font-weight: bold;
+    }
+
+    .article-meta {
+      color: #6b7280;
+      font-size: 0.9rem;
+    }
+
+    .edit-link {
+      color: #ff6b81;
+      font-weight: bold;
+    }
+    .edit-link:hover {
+      text-decoration: underline;
+    }
+
+    .mascot {
+      max-width: 80px;
+    }
