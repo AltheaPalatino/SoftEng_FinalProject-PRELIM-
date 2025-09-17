@@ -1,0 +1,27 @@
+<nav class="navbar navbar-expand-lg navbar-dark p-4" style="background-color: #1a1a1a;">
+  <a class="navbar-brand" href="index.php">Admin Panel</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" 
+          data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" 
+          aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <!-- Left-aligned links -->
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="manage_users.php">Manage Users</a></li>
+      <li class="nav-item"><a class="nav-link" href="manage_categories.php">Manage Categories</a></li>
+    </ul>
+
+
+<ul class="navbar-nav ml-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="core/HandleForms.php?logoutUserBtn=1">Logout</a>
+  </li>
+</ul>
+
+
+  </div>
+</nav>
+
