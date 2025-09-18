@@ -147,7 +147,6 @@ $categories = $catObj->getCategoriesWithSubcategories();
       </div>
       <div class="card-body">
         
-        <!-- Subcategories -->
         <ul class="list-group mb-3">
           <?php foreach ($cat['subcategories'] as $sub): ?>
             <li class="list-group-item d-flex justify-content-between align-items-center">

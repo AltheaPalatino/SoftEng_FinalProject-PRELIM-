@@ -11,7 +11,7 @@ if (!$userObj->isLoggedIn() || $_SESSION['role'] !== 'fiverr_administrator') {
 }
 
 // Get PDO from User object
-$pdo = $userObj->getPDO(); // <-- replace connect() with getPDO()
+$pdo = $userObj->getPDO(); 
 
 // Fetch all users
 $users = $pdo->query("SELECT * FROM fiverr_clone_users")->fetchAll(PDO::FETCH_ASSOC);
